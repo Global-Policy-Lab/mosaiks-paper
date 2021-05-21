@@ -1,0 +1,44 @@
+metadata_version: 1
+name: A Generalizable and Accessible Approach to Machine Learning with Global Satellite Imagery
+description: |-
+  This capsule provides the code, data, and computing environment required to produce the figures appearing in the main text and Supplementary Materials of:
+
+  E. Rolf, J. Proctor, T. Carleton, I. Bolliger, V. Shankar, M. Ishihara, B. Recht, S. Hsiang. "A Generalizable and Accessible Approach to Machine Learning with Global Satellite Imagery," Manuscript Submitted for Publication.
+
+  This repository also serves as an example of the generalizability of the MOSAIKS approach, which enables users with access to limited computing resources and without expertise in machine learning or remote sensing to generate observations of new variables in new locations. While this repository reproduces the results from the paper titled above, it also allows users to generate observations of new variables in new research and policy contexts with minimal changes to the existing code base.
+tags:
+- remote-sensing
+- machine-learning
+- satellite
+- satellite-data
+- linear-regression
+- social-science
+- big-data
+authors:
+- name: Esther Rolf
+  affiliations:
+  - name: University of California, Berkeley
+- name: Jonathan Proctor
+  affiliations:
+  - name: Harvard University
+- name: Tamma Carleton
+  affiliations:
+  - name: University of California, Santa Barbara
+- name: Ian Bolliger
+  affiliations:
+  - name: Rhodium Group
+- name: Vaishaal Shankar
+  affiliations:
+  - name: University of California, Berkeley
+- name: Miyabi Ishihara
+  affiliations:
+  - name: University of California, Berkeley
+- name: Benjamin Recht
+  affiliations:
+  - name: University of California, Berkeley
+- name: Solomon Hsiang
+  affiliations:
+  - name: University of California, Berkeley
+corresponding_contributor:
+  name: Ian Bolliger
+  email: ibolliger@rhg.com
