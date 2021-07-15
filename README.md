@@ -2,11 +2,11 @@
 
 This repository provides the code required to produce the figures appearing in the main text and Supplementary Materials of:
 
-E. Rolf, J. Proctor, T. Carleton, I. Bolliger, V. Shankar, M. Ishihara, B. Recht, and S. Hsiang. ["A Generalizable and Accessible Approach to Machine Learning with Global Satellite Imagery,"](https://www.nber.org/papers/w28045) *NBER Working Paper*, 2020.
+E. Rolf, J. Proctor, T. Carleton, I. Bolliger, V. Shankar, M. Ishihara, B. Recht, and S. Hsiang. ["A Generalizable and Accessible Approach to Machine Learning with Global Satellite Imagery,"](https://doi.org/10.1038/s41467-021-24638-z) *Nature Communications*, 2021.
 
 This repository also serves provides examples of the generalizability of the MOSAIKS approach, which enables users with access to limited computing resources and without expertise in machine learning or remote sensing to generate observations of new variables in new locations. While this repository reproduces the results from the paper titled above, it also describes how users could generate observations of new variables in new research and policy contexts, with only minimal changes to the existing code base.
 
-If you are viewing this repository on Github, please check out our Code Ocean capsule, where you will find a mirror of this repository along with data and a computing environment set up to run all of the analyses in our paper. You may interact with the code via this platform or simply download the data for use on your own platform.
+If you are viewing this repository on Github, please check out our [Code Ocean capsule](https://doi.org/10.24433/CO.8021636.v2), where you will find a mirror of this repository along with data and a computing environment set up to run all of the analyses in our paper. You may interact with the code via this platform or simply download the data for use on your own platform.
 
 Additional material related to this repository and the corresponding paper are available at [http://www.globalpolicy.science/mosaiks](http://www.globalpolicy.science/mosaiks).
 
@@ -24,7 +24,7 @@ The code folder is organized into an analysis pipeline and a package containing 
 
 ### 1.2. Data
 
-Data is hosted within our Code Ocean capsule. Due to a variety of license and data use agreement restrictions across data sources, as well as storage size constraints, we cannot host the raw label data nor the imagery used in our analysis. Instead, we provide detailed instructions on how to obtain and preprocess this data in the [Installation](#-installation) section. Preprocessing scripts are available in [code/analysis/1_feature_extraction](code/analysis/1_feature_extraction) (for image feature extraction) and [code/analysis/2_label_creation](code/analysis/2_label_creation) (for label creation). For data sources that can be downloaded programmatically, scripts in the latter folder also contain code that initiates a download of the corresponding labels. Note that over time, URLs and access instructions may change. If you are not able to obtain any of this data, please file an issue in our GitHub repository and we will do our best to update the instructions accordingly.
+Data is hosted within our [Code Ocean capsule](https://doi.org/10.24433/CO.8021636.v2). Due to a variety of license and data use agreement restrictions across data sources, as well as storage size constraints, we cannot host the raw label data nor the imagery used in our analysis. Instead, we provide detailed instructions on how to obtain and preprocess this data in the [Installation](#-installation) section. Preprocessing scripts are available in [code/analysis/1_feature_extraction](code/analysis/1_feature_extraction) (for image feature extraction) and [code/analysis/2_label_creation](code/analysis/2_label_creation) (for label creation). For data sources that can be downloaded programmatically, scripts in the latter folder also contain code that initiates a download of the corresponding labels. Note that over time, URLs and access instructions may change. If you are not able to obtain any of this data, please file an issue in our GitHub repository and we will do our best to update the instructions accordingly.
 
 The data folder is organized as follows:
 
