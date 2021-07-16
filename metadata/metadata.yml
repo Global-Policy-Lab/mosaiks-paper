@@ -3,7 +3,7 @@ name: A Generalizable and Accessible Approach to Machine Learning with Global Sa
 description: |-
   This capsule provides the code, data, and computing environment required to produce the figures appearing in the main text and Supplementary Materials of:
 
-  E. Rolf, J. Proctor, T. Carleton, I. Bolliger, V. Shankar, M. Ishihara, B. Recht, S. Hsiang. "A Generalizable and Accessible Approach to Machine Learning with Global Satellite Imagery," Manuscript Submitted for Publication.
+  E. Rolf, J. Proctor, T. Carleton, I. Bolliger, V. Shankar, M. Ishihara, B. Recht, and S. Hsiang. "A Generalizable and Accessible Approach to Machine Learning with Global Satellite Imagery," Nature Communications, 2021.
 
   This repository also serves as an example of the generalizability of the MOSAIKS approach, which enables users with access to limited computing resources and without expertise in machine learning or remote sensing to generate observations of new variables in new locations. While this repository reproduces the results from the paper titled above, it also allows users to generate observations of new variables in new research and policy contexts with minimal changes to the existing code base.
 tags:
