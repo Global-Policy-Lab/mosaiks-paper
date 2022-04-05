@@ -168,7 +168,7 @@ def chunk_idxs_by_size(size, chunk_size):
 
 
 class BasicCoatesNgNet(nn.Module):
-    """ All image inputs in torch must be C, H, W """
+    """All image inputs in torch must be C, H, W"""
 
     def __init__(
         self,
@@ -412,7 +412,7 @@ def featurize_and_save(image_folder, out_fpath, c):
     ids = np.char.add(np.char.add(ij[:, 0], ","), ij[:, 1])
 
     # save
-    with open(out_fpath, "rb") as f:
+    with open(out_fpath, "wb") as f:
         dill.dump(
             {"X": X_lift, "ids_X": ids, "net": net.cpu(), "latlon": latlon},
             f,
@@ -435,7 +435,7 @@ def __featurize(
     img_size=256,
     patch_dataset_loc=None,
 ):
-    """ Featurize image folder"""
+    """Featurize image folder"""
 
     assert patch_distribution in {"gaussian", "empirical"}
     resize = torchvision.transforms.Resize((256, 256))
