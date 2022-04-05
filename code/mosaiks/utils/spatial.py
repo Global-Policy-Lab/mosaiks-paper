@@ -106,6 +106,9 @@ def ll_to_ij(lon, lat, grid_dir, grid_area, zoom=16, numPixels=640):
     # need to flip lats b/c it's monotonic decreasing
     lats = lats.sort_index()
 
+    # confirm that lons are sorted
+    assert (lons == lons.sort_index()).all().all()
+
     # get both lon and lat in one dataframe
     data_df = pd.DataFrame({"lon": np.array(lon), "lat": np.array(lat)})
 
